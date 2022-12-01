@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package grpc;
+
+option go_package = "github.com/SalviCF/authorization-server";
+
+service AuthorizationService {
+    rpc ReadAllPolicies(ReadAllPoliciesRequest) returns (ReadAllPoliciesResponse) {}
+    
+}
+
+message ReadAllPoliciesRequest {
+    string link = 1;
+}
+
+message ReadAllPoliciesResponse {
+    string response = 1;
+}
