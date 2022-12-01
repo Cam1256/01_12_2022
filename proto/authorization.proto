@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package grpc;
 
-option go_package = "github.com/SalviCF/authorization-server";
+option go_package = "github.com/Cam1256/01_12_2022/proto";
 
 service AuthorizationService {
     rpc ReadAllPolicies(ReadAllPoliciesRequest) returns (ReadAllPoliciesResponse) {}

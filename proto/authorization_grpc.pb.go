@@ -4,7 +4,7 @@
 // - protoc             v3.21.9
 // source: proto/authorization.proto
 
-package authorization_server
+package proto
 
 import (
 	context "context"
